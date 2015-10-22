@@ -1,0 +1,124 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+/*Coustom Styles*/
+
+body {
+    font-family: 'avenir', sans-serif;
+    font-weight: medium;
+    font-size: 13px;
+}
+
+p {
+    font-family: 'lato', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+a {
+    font-family: 'avenir', sans-serif;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+h1,
+h2,
+h5,
+h6 {
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+}
+
+.sections {
+    /*position: relative;*/
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.customh2 {
+    text-transform: uppercase;
+    padding-top: 70px;
+}
+
+.noPadding {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    width: 340px;
+    /* Set the hr color */
+    color: #FF8914;
+    /* old IE */
+    background-color: #FF8914;
+    /* Modern Browsers */
+}
+
+
+/* End Coustom Styles*/
+
+
+/*Navigation bar*/
+
+#contact {
+    background-color: transparent;
+    border-color: #FF8914;
+    margin-top: 7px;
+    border-radius: 4px;
+    font-family: "lato", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#contact:hover{
+    color: #FF8914;
+}
+.navbar-right {
+    padding-top: 15px;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#brand{
+width: 150px;
+margin-top: 8px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #FF8914;
+}
+
+
+/* End Navigation bar*/
+/*Header*/
+
+/*home*/
+
+
+/* End home*/
+
+
+/*Services*/
+
+.icon-size {
+    font-size: 50px;
+}
+
+
+/* End Services*/
