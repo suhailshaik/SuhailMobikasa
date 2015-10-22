@@ -31,7 +31,6 @@ h2,
 h5,
 h6 {
     font-family: 'lato', sans-serif;
-    font-size: 20px;
 }
 
 .sections {
@@ -45,7 +44,7 @@ h6 {
 
 .customh2 {
     text-transform: uppercase;
-    padding-top: 70px;
+    padding-top: 120px;
 }
 
 .noPadding {
@@ -58,7 +57,7 @@ h6 {
 hr {
     border: none;
     height: 3px;
-    width: 340px;
+    width: 150px;
     /* Set the hr color */
     color: #FF8914;
     /* old IE */
@@ -83,30 +82,37 @@ hr {
     text-transform: uppercase;
 }
 
-#contact:hover{
+#contact:hover {
     color: #FF8914;
 }
+
 .navbar-right {
     padding-top: 15px;
     font-size: 16px;
     color: #ffffff;
     text-transform: uppercase;
 }
-#brand{
-width: 150px;
-margin-top: 8px;
+
+#brand {
+    width: 150px;
+    margin-top: 8px;
 }
-.navbar-default .navbar-nav>li>a{
+
+.navbar-default .navbar-nav>li>a {
     color: #FFFFFF;
     font-size: 14px;
 }
-.navbar-default .navbar-nav>li>a:hover{
+
+.navbar-default .navbar-nav>li>a:hover {
     color: #FF8914;
 }
 
 
 /* End Navigation bar*/
+
+
 /*Header*/
+
 
 /*home*/
 
@@ -116,9 +122,75 @@ margin-top: 8px;
 
 /*Services*/
 
-.icon-size {
-    font-size: 50px;
+.pad80t {
+    padding-top: 80px;
+}
+
+.pad50t {
+    padding-top: 50px;
+}
+
+.serviceIcon {
+    width: 30px;
+    height: 30px;
+    /*padding-left: 50px;*/
+    /*padding-bottom: 30px;*/
+}
+
+.customh4 {
+    color: #FF8914;
+    font-family: lato;
+    font-weight: regular;
+    font-size: 20px;
 }
 
 
 /* End Services*/
+
+
+/*Clients*/
+
+
+/* .clientLogo{
+
+  width: 130px ;  padding-left: 21px;
+} */
+
+.clientLogo {
+    display: inline-block;
+    float: center;
+    width: 120px;
+    height: 75px;
+    padding: 15px;
+}
+
+.CimgSize {
+    width: 80%;
+    height: 50%;
+    /*margin-bottom: 50px;*/
+    padding-bottom: 50px;
+
+}
+
+.CimgQuote {
+    max-width: 30px;
+    height: 15px;
+    display: block;
+    float: right;
+   /* margin-top: -50px;*/
+}
+blockquote{
+    border: 0px;
+    font-style: lato;
+    font-weight: light italic;
+    font-size: 17px;
+    color: #363636;
+}
+blockquote footer{
+    font-style: lato;
+    font-weight: light italic;
+    font-size: 20px;
+}
+.wrapquote{
+    position: relative;
+}
