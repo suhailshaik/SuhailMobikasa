@@ -18,6 +18,7 @@ p {
     font-family: 'lato', sans-serif;
     font-weight: lighter;
     font-size: 14px;
+
 }
 
 a {
@@ -45,6 +46,9 @@ h6 {
 .customh2 {
     text-transform: uppercase;
     padding-top: 120px;
+    display: block;
+    text-align: center;
+    font-weight: light;
 }
 
 .noPadding {
@@ -76,8 +80,8 @@ hr {
     border-color: #FF8914;
     margin-top: 7px;
     border-radius: 4px;
-    font-family: "lato", Helvetica, Arial, sans-serif;
-    font-weight: normal;
+    font-family: "lato";
+    font-weight: light;
     font-size: 14px;
     text-transform: uppercase;
 }
@@ -113,6 +117,14 @@ hr {
 
 /*Header*/
 
+/* .homeBg {
+    background-image: url(../images/homeFirst.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+} */
+
 
 /*home*/
 
@@ -123,7 +135,7 @@ hr {
 /*Services*/
 
 .pad80t {
-    padding-top: 80px;
+    margin-top: 80px;
 }
 
 .pad50t {
@@ -150,12 +162,6 @@ hr {
 
 /*Clients*/
 
-
-/* .clientLogo{
-
-  width: 130px ;  padding-left: 21px;
-} */
-
 .clientLogo {
     display: inline-block;
     float: center;
@@ -165,11 +171,11 @@ hr {
 }
 
 .CimgSize {
-    width: 80%;
-    height: 50%;
+    resize: both;
+    max-width: auto;
+    height: 500px;
     /*margin-bottom: 50px;*/
-    padding-bottom: 50px;
-
+    /*padding-bottom: 50px;*/
 }
 
 .CimgQuote {
@@ -177,20 +183,180 @@ hr {
     height: 15px;
     display: block;
     float: right;
-   /* margin-top: -50px;*/
+    margin-top: 10px;
+    /* margin-top: -50px;*/
 }
-blockquote{
+
+blockquote {
     border: 0px;
     font-style: lato;
     font-weight: light italic;
     font-size: 17px;
     color: #363636;
+    padding-top: 100px;
+    padding-right: 240px;
 }
-blockquote footer{
+
+blockquote p {
+    text-align: center;
+}
+
+blockquote footer {
     font-style: lato;
     font-weight: light italic;
     font-size: 20px;
 }
-.wrapquote{
-    position: relative;
+
+.ExplorBtnDiv {
+    margin-right: 250px;
+    /*padding-top: 30px;*/
+    /*margin-right: 0px;*/
 }
+
+.ExBtn {
+    color: #FFFFFF;
+    background-color: #EB8B2D;
+    border-radius: 5px;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.ExBtn:hover {
+    background-color: #FF8914;
+    border-color: #FF8914;
+    color: #FFFFFF;
+}
+
+
+/* .wrapquote {
+    position: relative;
+} */
+
+
+/* Certificates */
+
+.certiSize {
+    display: block-inline;
+}
+
+.center-align {
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-flex;
+    /* Safari */
+    -webkit-align-items: center;
+    /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+    display: block;
+}
+
+.c1 {
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.c2 {
+    width: 100px;
+    height: 250px;
+    margin-left: 80px;
+}
+
+.c3 {
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.c4 {
+    width: 200px;
+    height: 80px;
+    margin-left: 100px;
+}
+
+.c5 {
+    width: 280px;
+    height: 70px;
+    margin-left: 180px;
+}
+
+.c6 {
+    width: 150px;
+    height: 120px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.c7 {
+    width: 200px;
+    height: 60px;
+    margin-left: 100px;
+}
+
+
+/* End Certificates */
+
+
+/* Contact Us */
+
+.contactBg {
+    background-image: url(../images/honeydew.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    margin-top: 170px;
+
+}
+
+.customh2c {
+    color: #FFFFFF;
+}
+
+/*Contact Us*/
+
+.formField{
+    background-color: transparent;
+
+}
+
+address{
+    color: #FFFFFF;
+    font-family: 'avenir', sans-serif;
+    font-weight: light;
+    font-size: 14;
+    text-align: left;
+    margin-left: 180px;
+
+}
+.addH{
+    text-align: left;
+    margin-left: 180px;
+    color: #FF8914;
+}
+
+address a, address a:visited , address a:active{
+     color: #FFFFFF;
+    font-family: 'avenir', sans-serif;
+    font-weight: light;
+    font-size: 14;
+    text-align: left;
+    /*margin-left: 180px;*/
+    text-decoration: none;
+
+}
+address a:hover{
+     color: #FFFFFF;
+    font-family: 'avenir', sans-serif;
+    font-weight: light;
+    font-size: 14;
+    text-align: left;
+    /*margin-left: 180px;*/
+    text-decoration: none;
+    color: #FF8914;
+    
+}
+
