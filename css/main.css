@@ -111,6 +111,11 @@ hr {
     color: #FF8914;
 }
 
+.top-nav-collapse{
+    background-color:#000000;
+    color:  #FFFFFF;
+    padding-bottom: 5px;
+}
 
 /* End Navigation bar*/
 
