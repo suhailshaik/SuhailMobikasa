@@ -112,7 +112,7 @@ hr {
 }
 
 .top-nav-collapse{
-    background-color:#000000;
+    background-color:gray;
     color:  #FFFFFF;
     padding-bottom: 5px;
 }
@@ -365,3 +365,19 @@ address a:hover{
     
 }
 
+/* Footer */
+footer{
+    float:center;
+    margin-bottom: 0px;
+    /* position: fixed; */
+    background-color: #FFFFFF;
+}
+/* footer>article{
+    display: block;
+    float: left;
+    padding-left: 100px;
+} */
+.footerList{
+    text-decoration: none;
+    list-style-type:none;
+}

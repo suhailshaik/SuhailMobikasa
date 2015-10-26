@@ -48,10 +48,15 @@ $(document).ready(
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 51) {
-       console.log("Scroll > 50px")
+       
         $(".navbar-fixed-top").addClass("top-nav-collapse");
+        $("#brand").attr('src' , "./images/logoC.png");
+        
+
+
 
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $("#brand").attr('src' , "./images/logoW.png");
     }
 });
